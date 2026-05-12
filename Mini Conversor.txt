@@ -1,0 +1,29 @@
+Código: Mini programa que actúa como conversor de unidades
+
+
+
+
+
+# Conversor simple
+
+print("1. Celsius a Fahrenheit")
+print("2. Metros a Kilómetros")
+
+opcion = input("Elige una opción: ")
+
+if opcion == "1":
+    c = float(input("Celsius: "))
+    f = (c * 9/5) + 32
+    print("Fahrenheit:", f)
+
+elif opcion == "2":
+    m = float(input("Metros: "))
+    km = m / 1000
+    print("Kilómetros:", km)
+
+else:
+    print("Opción inválida")
+
+
+
+
